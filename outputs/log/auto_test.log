@@ -1,0 +1,306 @@
+2024-11-13 15:02:42.668 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:42.811 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/user/sendRegisterSms
+2024-11-13 15:02:42.811 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"mobile":13707507886}
+2024-11-13 15:02:42.811 | INFO     | auto_test.common.common:send_request:57 - 请求方法:PUT
+2024-11-13 15:02:42.812 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:02:42.812 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:42.816 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:42.816 | INFO     | auto_test.common.common:send_request:62 - 响应体:
+2024-11-13 15:02:43.042 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:43.043 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:43.043 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:43.048 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:43.159 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/user/checkRegisterSms
+2024-11-13 15:02:43.160 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"mobile":13707507886,"validCode":108008}
+2024-11-13 15:02:43.160 | INFO     | auto_test.common.common:send_request:57 - 请求方法:PUT
+2024-11-13 15:02:43.161 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:02:43.161 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:43.161 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:43.162 | INFO     | auto_test.common.common:send_request:62 - 响应体:3799f42b42da4789a92c0225a3217d2f
+2024-11-13 15:02:43.162 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:43.162 | INFO     | auto_test.common.handle_extract:extract_res:17 - 响应整体文本提取3799f42b42da4789a92c0225a3217d2f
+2024-11-13 15:02:43.163 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:43.163 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:43.172 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:43.410 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/user/registerOrBindUser
+2024-11-13 15:02:43.410 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"appType":3,"checkRegisterSmsFlag":"3799f42b42da4789a92c0225a3217d2f","mobile":13707507886,"userName":"yanqiao","password":"lemon123456","registerOrBind":1,"validateType":1}
+2024-11-13 15:02:43.410 | INFO     | auto_test.common.common:send_request:57 - 请求方法:PUT
+2024-11-13 15:02:43.410 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:02:43.410 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:43.411 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:43.411 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"access_token":"bd8aed39-9160-4546-9120-76662e1b442f","token_type":"bearer","refresh_token":"1395dd3c-162b-4982-9f12-de40e7f0139d","expires_in":1295999,"pic":null,"userId":"f0acf7973db14dc59616581f6f034242","nickName":"yanqiao","enabled":true}
+2024-11-13 15:02:43.411 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:43.411 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:43.411 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:43.414 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:43.611 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/login
+2024-11-13 15:02:43.611 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"principal":"lemon_tester_009","credentials":"123456","appType":3,"loginType":0}
+2024-11-13 15:02:43.611 | INFO     | auto_test.common.common:send_request:57 - 请求方法:POST
+2024-11-13 15:02:43.611 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:02:43.612 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:43.612 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:43.612 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"access_token":"ec899c45-96b6-4a34-90ec-ef0677883f29","token_type":"bearer","refresh_token":"4bda6513-c7c4-466f-b73c-f8c1255a0507","expires_in":1295999,"pic":"${resource_url}${file_path}","userId":"958b5e6353a4403a8e77473d6a97cdb3","nickName":"lemon_tester_009","enabled":true}
+2024-11-13 15:02:43.612 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:43.612 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonnickName提取到的字段的值是lemon_tester_009
+2024-11-13 15:02:43.613 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonaccess_token提取到的字段的值是ec899c45-96b6-4a34-90ec-ef0677883f29
+2024-11-13 15:02:43.613 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:43.613 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:43.613 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:02:43.615 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:43.702 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/search/searchProdPage
+2024-11-13 15:02:43.702 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"prodName":"电饭煲"}
+2024-11-13 15:02:43.702 | INFO     | auto_test.common.common:send_request:57 - 请求方法:GET
+2024-11-13 15:02:43.702 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:02:43.702 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:43.703 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:43.703 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"records":[{"prodId":4917,"pic":"http://shop.lemonban.com:8108/2024/11/928e01398e9f4804a0d9b5f843575345.png","prodName":"lemon电饭煲","price":268.0,"prodCommNumber":0,"positiveRating":0.0,"praiseNumber":0}],"total":1,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":1}
+2024-11-13 15:02:43.703 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:43.704 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonprodId提取到的字段的值是4917
+2024-11-13 15:02:43.704 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:43.704 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:43.704 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:02:43.707 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:43.775 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/prod/prodInfo
+2024-11-13 15:02:43.775 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"prodId":4917}
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.common:send_request:57 - 请求方法:GET
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"shopId":1,"shopName":null,"prodId":4917,"prodName":"lemon电饭煲","price":268.0,"content":"<p>性价比高，颜值高</p>\n<p>性价比高，颜值高</p>\n<p>性价比高，颜值高</p>\n<p>性价比高，颜值高</p>","oriPrice":298.0,"waterSoldNum":0,"totalStocks":242,"brief":"性价比高，颜值高","video":"","pic":"http://shop.lemonban.com:8108/2024/11/928e01398e9f4804a0d9b5f843575345.png","imgs":"http://shop.lemonban.com:8108/2024/11/928e01398e9f4804a0d9b5f843575345.png","categoryId":153,"prodType":0,"scorePrice":null,"liveRoomParams":[],"skuList":[{"skuId":12346,"price":268.0,"oriPrice":298.0,"stocks":42,"skuName":"粉色 ","skuScore":1,"pic":"http://shop.lemonban.com:8108/2024/11/b727651c3f4841e8b0eb44c58569c5a2.jpeg","properties":"颜色:粉色"},{"skuId":12347,"price":270.0,"oriPrice":300.0,"stocks":200,"skuName":"白色 ","skuScore":1,"pic":"http://shop.lemonban.com:8108/2024/11/04f525b2cc6b4b5497cee69fdf9252ca.jpg","properties":"颜色:白色"}],"groupActivityId":0,"activityPrice":null,"startDeliveryFee":15.87,"deliveryModeVO":{"hasUserPickUp":false,"hasShopDelivery":true,"hasCityDelivery":true},"preSellStatus":0,"preSellTime":"2024-11-04 00:00:00"}
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonskuId提取到的字段的值是12346
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:43.776 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:43.777 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:02:43.780 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:43.963 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/p/shopCart/changeItem
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"basketId":0,"count":1,"prodId":4917,"shopId":1,"skuId":12346}
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.common:send_request:57 - 请求方法:POST
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Authorization': 'bearerec899c45-96b6-4a34-90ec-ef0677883f29', 'Content-Type': 'application/json'}
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.common:send_request:62 - 响应体:
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:43.964 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:43.965 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:02:43.967 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:44.057 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/p/shopCart/info
+2024-11-13 15:02:44.058 | INFO     | auto_test.common.common:send_request:56 - 请求参数:[]
+2024-11-13 15:02:44.058 | INFO     | auto_test.common.common:send_request:57 - 请求方法:POST
+2024-11-13 15:02:44.058 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Authorization': 'bearerec899c45-96b6-4a34-90ec-ef0677883f29', 'Content-Type': 'application/json'}
+2024-11-13 15:02:44.058 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:44.058 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:44.058 | INFO     | auto_test.common.common:send_request:62 - 响应体:[{"shopId":1,"shopName":"碧海蓝天","shopCityStatus":1,"shopCartItemDiscounts":[{"totalAmount":null,"chooseDiscountItemDto":null,"shopCartItems":[{"prodName":"lemon电饭煲 粉色 ","prodNameCn":"lemon电饭煲 粉色 ","prodNameEn":"lemon电饭煲 粉色 ","prodCount":14,"pic":"http://shop.lemonban.com:8108/2024/11/b727651c3f4841e8b0eb44c58569c5a2.jpeg","price":268.0,"categoryId":null,"productTotalAmount":3752.0,"prodId":4917,"skuId":12346,"skuName":"粉色 ","useScore":null,"scorePrice":0,"basketId":22640,"actualTotal":null,"discountId":0,"shareReduce":0.0,"isShareReduce":null,"scorePayReduce":null,"discounts":[],"deliveryMode":"{\"hasUserPickUp\": false, \"hasCityDelivery\": true, \"hasShopDelivery\": true}","deliveryModeVO":{"hasUserPickUp":false,"hasShopDelivery":true,"hasCityDelivery":true},"isCheck":false,"shopId":1,"shopName":"碧海蓝天","oriPrice":298.0,"distributionCardNo":null,"basketDate":"2024-11-13 13:57:00","preSellStatus":null,"preSellTime":null,"shopCityStatus":1}]}]}]
+2024-11-13 15:02:44.058 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:44.059 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonbasketId提取到的字段的值是22640
+2024-11-13 15:02:44.059 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:44.059 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:44.059 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:02:44.062 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:02:44.152 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/p/order/confirm
+2024-11-13 15:02:44.152 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"addrId":0,"basketIds":[22640],"couponIds":[],"isScorePay":0,"userChangeCoupon":0,"userUseScore":0,"uuid":"67710699-4c85-484c-835c-d773c5cd8f6c"}
+2024-11-13 15:02:44.152 | INFO     | auto_test.common.common:send_request:57 - 请求方法:POST
+2024-11-13 15:02:44.152 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Authorization': 'bearerec899c45-96b6-4a34-90ec-ef0677883f29', 'Content-Type': 'application/json'}
+2024-11-13 15:02:44.152 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:02:44.152 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:02:44.152 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"actualTotal":3752.0,"total":3752.0,"totalCount":14,"orderReduce":0.0,"scorePrice":null,"maxUsableScore":1,"totalUsableScore":0,"totalScoreAmount":0.0,"totalLevelAmount":0.0,"freeTransfee":0.0,"totalTransfee":0.0,"userAddr":{"addrId":3281,"receiver":"去","province":"北京市","city":"市辖区","area":"西城区","addr":"大发财是去","mobile":"17345677634","lng":0.0,"lat":0.0,"commonAddr":1,"provinceId":11,"cityId":1101,"areaId":110102},"shopCartOrders":[{"shopId":1,"shopName":"碧海蓝天","actualTotal":3752.0,"total":3752.0,"totalCount":14,"transfee":0.0,"discountReduce":0.0,"couponReduce":null,"shopReduce":0.0,"remarks":null,"scoreReduce":0.0,"useScore":null,"levelReduce":0.0,"freeTransfee":0.0,"shopCartItemDiscounts":[{"totalAmount":3752.0,"chooseDiscountItemDto":null,"shopCartItems":[{"prodName":"lemon电饭煲 粉色 ","prodNameCn":"lemon电饭煲 粉色 ","prodNameEn":"lemon电饭煲 粉色 ","prodCount":14,"pic":"http://shop.lemonban.com:8108/2024/11/b727651c3f4841e8b0eb44c58569c5a2.jpeg","price":268.0,"categoryId":null,"productTotalAmount":3752.0,"prodId":4917,"skuId":12346,"skuName":"粉色 ","useScore":null,"scorePrice":0,"basketId":22640,"actualTotal":3752.0,"discountId":0,"shareReduce":0.0,"isShareReduce":null,"scorePayReduce":null,"discounts":[],"deliveryMode":"{\"hasUserPickUp\": false, \"hasCityDelivery\": true, \"hasShopDelivery\": true}","deliveryModeVO":{"hasUserPickUp":false,"hasShopDelivery":true,"hasCityDelivery":true},"isCheck":null,"shopId":1,"shopName":"碧海蓝天","oriPrice":298.0,"distributionCardNo":null,"basketDate":"2024-11-13 13:57:00","preSellStatus":null,"preSellTime":null,"shopCityStatus":1}]}],"coupons":[],"shopCityStatus":1,"orderNumber":null}],"coupons":null,"isScorePay":0,"shopUseScore":100.0,"filterShopItems":[],"orderSelfStationDto":null,"orderSelfStationDtos":null,"dvyType":1,"stationId":null,"shopCityStatus":1}
+2024-11-13 15:02:44.152 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:02:44.153 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:02:44.153 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:02:44.153 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:03:12.597 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:12.737 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/user/sendRegisterSms
+2024-11-13 15:03:12.738 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"mobile":18733935555}
+2024-11-13 15:03:12.738 | INFO     | auto_test.common.common:send_request:57 - 请求方法:PUT
+2024-11-13 15:03:12.738 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:03:12.738 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:12.738 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:12.738 | INFO     | auto_test.common.common:send_request:62 - 响应体:
+2024-11-13 15:03:12.932 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:12.932 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:12.932 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:12.935 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:13.040 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/user/checkRegisterSms
+2024-11-13 15:03:13.040 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"mobile":18733935555,"validCode":841344}
+2024-11-13 15:03:13.040 | INFO     | auto_test.common.common:send_request:57 - 请求方法:PUT
+2024-11-13 15:03:13.041 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:03:13.041 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:13.041 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:13.041 | INFO     | auto_test.common.common:send_request:62 - 响应体:4d78c3cbacce4f8f9532a7916341f03c
+2024-11-13 15:03:13.041 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:13.041 | INFO     | auto_test.common.handle_extract:extract_res:17 - 响应整体文本提取4d78c3cbacce4f8f9532a7916341f03c
+2024-11-13 15:03:13.041 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:13.041 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:13.048 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:13.259 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/user/registerOrBindUser
+2024-11-13 15:03:13.259 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"appType":3,"checkRegisterSmsFlag":"4d78c3cbacce4f8f9532a7916341f03c","mobile":18733935555,"userName":"min58","password":"lemon123456","registerOrBind":1,"validateType":1}
+2024-11-13 15:03:13.260 | INFO     | auto_test.common.common:send_request:57 - 请求方法:PUT
+2024-11-13 15:03:13.260 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:03:13.260 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:13.260 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:13.260 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"access_token":"28098142-09d0-405d-a240-07cfd7624829","token_type":"bearer","refresh_token":"3c7eab23-1861-44b1-8d2e-b40f6038b832","expires_in":1295999,"pic":null,"userId":"19303274c7f047a98ac41429bec3454f","nickName":"min58","enabled":true}
+2024-11-13 15:03:13.260 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:13.260 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:13.260 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:13.263 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:13.468 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/login
+2024-11-13 15:03:13.468 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"principal":"lemon_tester_009","credentials":"123456","appType":3,"loginType":0}
+2024-11-13 15:03:13.468 | INFO     | auto_test.common.common:send_request:57 - 请求方法:POST
+2024-11-13 15:03:13.468 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:03:13.469 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:13.469 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:13.469 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"access_token":"cf8595d2-d553-474e-85f4-74465d0c2a31","token_type":"bearer","refresh_token":"a37bba4a-f019-448b-aa20-b76cee192c84","expires_in":1295999,"pic":"${resource_url}${file_path}","userId":"958b5e6353a4403a8e77473d6a97cdb3","nickName":"lemon_tester_009","enabled":true}
+2024-11-13 15:03:13.469 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:13.469 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonnickName提取到的字段的值是lemon_tester_009
+2024-11-13 15:03:13.470 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonaccess_token提取到的字段的值是cf8595d2-d553-474e-85f4-74465d0c2a31
+2024-11-13 15:03:13.470 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:13.470 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:13.470 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:03:13.474 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:13.557 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/search/searchProdPage
+2024-11-13 15:03:13.557 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"prodName":"电饭煲"}
+2024-11-13 15:03:13.557 | INFO     | auto_test.common.common:send_request:57 - 请求方法:GET
+2024-11-13 15:03:13.558 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:03:13.558 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:13.558 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:13.558 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"records":[{"prodId":4917,"pic":"http://shop.lemonban.com:8108/2024/11/928e01398e9f4804a0d9b5f843575345.png","prodName":"lemon电饭煲","price":268.0,"prodCommNumber":0,"positiveRating":0.0,"praiseNumber":0}],"total":1,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":1}
+2024-11-13 15:03:13.558 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:13.558 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonprodId提取到的字段的值是4917
+2024-11-13 15:03:13.558 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:13.558 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:13.559 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:03:13.562 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:13.653 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/prod/prodInfo
+2024-11-13 15:03:13.653 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"prodId":4917}
+2024-11-13 15:03:13.653 | INFO     | auto_test.common.common:send_request:57 - 请求方法:GET
+2024-11-13 15:03:13.653 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Content-Type': 'application/json'}
+2024-11-13 15:03:13.653 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:13.654 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:13.654 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"shopId":1,"shopName":null,"prodId":4917,"prodName":"lemon电饭煲","price":268.0,"content":"<p>性价比高，颜值高</p>\n<p>性价比高，颜值高</p>\n<p>性价比高，颜值高</p>\n<p>性价比高，颜值高</p>","oriPrice":298.0,"waterSoldNum":0,"totalStocks":242,"brief":"性价比高，颜值高","video":"","pic":"http://shop.lemonban.com:8108/2024/11/928e01398e9f4804a0d9b5f843575345.png","imgs":"http://shop.lemonban.com:8108/2024/11/928e01398e9f4804a0d9b5f843575345.png","categoryId":153,"prodType":0,"scorePrice":null,"liveRoomParams":[],"skuList":[{"skuId":12346,"price":268.0,"oriPrice":298.0,"stocks":42,"skuName":"粉色 ","skuScore":1,"pic":"http://shop.lemonban.com:8108/2024/11/b727651c3f4841e8b0eb44c58569c5a2.jpeg","properties":"颜色:粉色"},{"skuId":12347,"price":270.0,"oriPrice":300.0,"stocks":200,"skuName":"白色 ","skuScore":1,"pic":"http://shop.lemonban.com:8108/2024/11/04f525b2cc6b4b5497cee69fdf9252ca.jpg","properties":"颜色:白色"}],"groupActivityId":0,"activityPrice":null,"startDeliveryFee":15.87,"deliveryModeVO":{"hasUserPickUp":false,"hasShopDelivery":true,"hasCityDelivery":true},"preSellStatus":0,"preSellTime":"2024-11-04 00:00:00"}
+2024-11-13 15:03:13.654 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:13.654 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonskuId提取到的字段的值是12346
+2024-11-13 15:03:13.654 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:13.654 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:13.654 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:03:13.657 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:13.770 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/p/shopCart/changeItem
+2024-11-13 15:03:13.770 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"basketId":0,"count":1,"prodId":4917,"shopId":1,"skuId":12346}
+2024-11-13 15:03:13.770 | INFO     | auto_test.common.common:send_request:57 - 请求方法:POST
+2024-11-13 15:03:13.770 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Authorization': 'bearercf8595d2-d553-474e-85f4-74465d0c2a31', 'Content-Type': 'application/json'}
+2024-11-13 15:03:13.770 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:13.770 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:13.770 | INFO     | auto_test.common.common:send_request:62 - 响应体:
+2024-11-13 15:03:13.771 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:13.771 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:13.771 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:13.771 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:03:13.775 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:13.862 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/p/shopCart/info
+2024-11-13 15:03:13.862 | INFO     | auto_test.common.common:send_request:56 - 请求参数:[]
+2024-11-13 15:03:13.862 | INFO     | auto_test.common.common:send_request:57 - 请求方法:POST
+2024-11-13 15:03:13.862 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Authorization': 'bearercf8595d2-d553-474e-85f4-74465d0c2a31', 'Content-Type': 'application/json'}
+2024-11-13 15:03:13.862 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:13.862 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:13.863 | INFO     | auto_test.common.common:send_request:62 - 响应体:[{"shopId":1,"shopName":"碧海蓝天","shopCityStatus":1,"shopCartItemDiscounts":[{"totalAmount":null,"chooseDiscountItemDto":null,"shopCartItems":[{"prodName":"lemon电饭煲 粉色 ","prodNameCn":"lemon电饭煲 粉色 ","prodNameEn":"lemon电饭煲 粉色 ","prodCount":15,"pic":"http://shop.lemonban.com:8108/2024/11/b727651c3f4841e8b0eb44c58569c5a2.jpeg","price":268.0,"categoryId":null,"productTotalAmount":4020.0,"prodId":4917,"skuId":12346,"skuName":"粉色 ","useScore":null,"scorePrice":0,"basketId":22640,"actualTotal":null,"discountId":0,"shareReduce":0.0,"isShareReduce":null,"scorePayReduce":null,"discounts":[],"deliveryMode":"{\"hasUserPickUp\": false, \"hasCityDelivery\": true, \"hasShopDelivery\": true}","deliveryModeVO":{"hasUserPickUp":false,"hasShopDelivery":true,"hasCityDelivery":true},"isCheck":false,"shopId":1,"shopName":"碧海蓝天","oriPrice":298.0,"distributionCardNo":null,"basketDate":"2024-11-13 13:57:00","preSellStatus":null,"preSellTime":null,"shopCityStatus":1}]}]}]
+2024-11-13 15:03:13.863 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:13.863 | INFO     | auto_test.common.handle_extract:extract_res:21 - jsonbasketId提取到的字段的值是22640
+2024-11-13 15:03:13.863 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:13.863 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:13.863 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
+2024-11-13 15:03:13.866 | INFO     | auto_test.common.common:send_request:25 - 
+====================接口请求参数====================
+2024-11-13 15:03:13.957 | INFO     | auto_test.common.common:send_request:55 - 请求地址:http://mall.lemonban.com:8107/p/order/confirm
+2024-11-13 15:03:13.957 | INFO     | auto_test.common.common:send_request:56 - 请求参数:{"addrId":0,"basketIds":[22640],"couponIds":[],"isScorePay":0,"userChangeCoupon":0,"userUseScore":0,"uuid":"67710699-4c85-484c-835c-d773c5cd8f6c"}
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.common:send_request:57 - 请求方法:POST
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.common:send_request:58 - 请求头:{'Authorization': 'bearercf8595d2-d553-474e-85f4-74465d0c2a31', 'Content-Type': 'application/json'}
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.common:send_request:60 - 
+====================接口响应参数====================
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.common:send_request:61 - 响应状态码:200
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.common:send_request:62 - 响应体:{"actualTotal":4020.0,"total":4020.0,"totalCount":15,"orderReduce":0.0,"scorePrice":null,"maxUsableScore":1,"totalUsableScore":0,"totalScoreAmount":0.0,"totalLevelAmount":0.0,"freeTransfee":0.0,"totalTransfee":0.0,"userAddr":{"addrId":3281,"receiver":"去","province":"北京市","city":"市辖区","area":"西城区","addr":"大发财是去","mobile":"17345677634","lng":0.0,"lat":0.0,"commonAddr":1,"provinceId":11,"cityId":1101,"areaId":110102},"shopCartOrders":[{"shopId":1,"shopName":"碧海蓝天","actualTotal":4020.0,"total":4020.0,"totalCount":15,"transfee":0.0,"discountReduce":0.0,"couponReduce":null,"shopReduce":0.0,"remarks":null,"scoreReduce":0.0,"useScore":null,"levelReduce":0.0,"freeTransfee":0.0,"shopCartItemDiscounts":[{"totalAmount":4020.0,"chooseDiscountItemDto":null,"shopCartItems":[{"prodName":"lemon电饭煲 粉色 ","prodNameCn":"lemon电饭煲 粉色 ","prodNameEn":"lemon电饭煲 粉色 ","prodCount":15,"pic":"http://shop.lemonban.com:8108/2024/11/b727651c3f4841e8b0eb44c58569c5a2.jpeg","price":268.0,"categoryId":null,"productTotalAmount":4020.0,"prodId":4917,"skuId":12346,"skuName":"粉色 ","useScore":null,"scorePrice":0,"basketId":22640,"actualTotal":4020.0,"discountId":0,"shareReduce":0.0,"isShareReduce":null,"scorePayReduce":null,"discounts":[],"deliveryMode":"{\"hasUserPickUp\": false, \"hasCityDelivery\": true, \"hasShopDelivery\": true}","deliveryModeVO":{"hasUserPickUp":false,"hasShopDelivery":true,"hasCityDelivery":true},"isCheck":null,"shopId":1,"shopName":"碧海蓝天","oriPrice":298.0,"distributionCardNo":null,"basketDate":"2024-11-13 13:57:00","preSellStatus":null,"preSellTime":null,"shopCityStatus":1}]}],"coupons":[],"shopCityStatus":1,"orderNumber":null}],"coupons":null,"isScorePay":0,"shopUseScore":100.0,"filterShopItems":[],"orderSelfStationDto":null,"orderSelfStationDtos":null,"dvyType":1,"stationId":null,"shopCityStatus":1}
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.handle_extract:extract_res:5 - 
+====================提取响应字段====================
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.common:assert_res:68 - 
+====================接口响应断言====================
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.common:assert_res:77 - 接口响应断言-状态码，指望值200，实际值200
+2024-11-13 15:03:13.958 | INFO     | auto_test.common.common:assert_db:90 - 
+====================数据库断言====================
